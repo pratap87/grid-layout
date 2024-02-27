@@ -11,8 +11,9 @@
   }
   
   .grid-item {
-    background-color: #f9f9f9;
+    background-color: #606c38;
     padding: 20px;
+    color: #fefae0;
     width: 300px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,4 +37,27 @@
       grid-template-columns: repeat(4, 1fr);
     }
   }
+  
+
+
+  .topnav {
+    background-color:#606c38; /* Background color */
+    overflow: hidden; /* Ensure links don't overflow */
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    min-height: 50px;
+    padding: 2%;
+  }
+
+
+  .topnav a{
+    display: block; 
+    color: #fefae0; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  
   

@@ -36,9 +36,7 @@ export const Header = ({ onSearch, onFilter }) => {
         <select value={filterOption} onChange={handleFilterChange} className="filter-select">
           <option value="name">Name</option>
           <option value="dateLastEdited">Date Last Edited</option>
-          <option value="comedy">Comedy</option>
-          <option value="drama">Drama</option>
-          <option value="horror">Horror</option>
+         
         </select>
       </div>
     </div>
